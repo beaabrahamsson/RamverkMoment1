@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <p>Moment 1</p>
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="/index.html" class="navbar-item">
+              Startsida
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Ramverk
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a href="/ramverk1.html" class="navbar-item">
+                  Bulma
+                </a>
+                <a href="/ramverk2.html" class="navbar-item">
+                  Pure
+                </a>
+              </div>
+            </div>
+            <a href="/publicering.html" class="navbar-item">
+                Publicering
+            </a>
+          </div>
+        </div>
+      </nav>
+<!-- content -->
+<div class=" content p-6">
+    <div class="mt-6"></div>
+    <h1>Publicering</h1>
+    <p>I denna uppgift har en publiceringsmetod som inte är FTP-baserad använts för att publicera webbplatsen. Jag har valt att använda plattformen <strong>Netlify</strong>.</p>
+    <h2>Netlify</h2>
+    <p>Netlify är ett webbhotell och en plattform som tillåter utvecklare att bygga högpresterande och dynamiska webbplatser, e-handelsbutiker och webbapplikationer. Netlify gör det enkalt att publicera, distributera och vara värd för en webbplats.</p>
+    <p>Då Netlify fungerar genom att använda GitHub är det enkelt att uppdatera en webbplats endast genom att göra regelbundna commits. Netlify stöder flera olika programmeringsspråk såsom HTML, CSS, JavaScript och Python men har inte stöd för exempelvis PHP eller Java.</p>
+    <p>Netlify erbjuder även en gratisversion för personliga och hobbyprojekt vilket gör det lätt att utvärdera innan man behöver betala.</p>
+    <h3>Fördelar</h3>
+    <ul>
+        <li>Gratis att använda</li>
+        <li>Enekelt att komma igång och publicera en webbplats</li>
+        <li>Integration med Github</li>
+        <li>Snabbt och enkelt att uppdatera en webbplats</li>
+    </ul>
+    <h3>Nackdelar</h3>
+    <ul>
+        <li>Främst gjort för statiska webbplatser</li>
+        <li>Du behöver kunna koda för att bygga en webbplats med Netlify</li>
+    </ul>
+    <h2>Arbetssätt</h2>
+    <p>För detta projekt skapade jag ett GitHub repo för alla mina filer. Efter att ha skapat ett konto hos Netlify och kopplat det till GitHub valde jag mitt repo från listan. Efter detta konfigurerade jag inställningarna för för min webbplats och valde ett passande namn. Sidan är nu live och varje gång jag gör ett commit så uppdateras webbplatsen automatiskt.</p>
+</div>
+  <script src="main.js"></script>
+  </body>
+</html>
