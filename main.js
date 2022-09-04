@@ -1,3 +1,4 @@
+  //Responsive menu Bulma framework
 document.addEventListener('DOMContentLoaded', () => {
 
     // Get all "navbar-burger" elements
@@ -20,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   });
 
+  //Responsive menu Pure framework
   (function (window, document) {
     var menu = document.getElementById('menu'),
         rollBack,
